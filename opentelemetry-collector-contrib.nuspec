@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>opentelemetry-collector-contrib</id>
+    <version>0.38.0</version>
+    <title>OpenTelemetry Collector Contrib (Install)</title>
+    <owners>DRoosma</owners>
+    <authors>open-telemetry</authors>
+    <projectUrl>https://github.com/open-telemetry/opentelemetry-collector-contrib</projectUrl>
+    <tags>opentelemetry opentelemetry-collector opentelemetry-collector-contrib</tags>
+    <licenseUrl>https://raw.githubusercontent.com/open-telemetry/opentelemetry-collector-contrib/main/LICENSE</licenseUrl>
+    <packageSourceUrl>https://github.com/droosma/opentelemetry-collector-contrib-chocolatey</packageSourceUrl>
+    <projectSourceUrl>https://github.com/open-telemetry/opentelemetry-collector-contrib</projectSourceUrl>
+    <releaseNotes>https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.38.0</releaseNotes>
+    <docsUrl>https://opentelemetry.io/docs/collector/getting-started/</docsUrl>
+    <bugTrackerUrl>https://github.com/open-telemetry/opentelemetry-collector-contrib/issues</bugTrackerUrl>
+    <summary>OpenTelemetry Collector Contrib</summary>
+    <description>
+      This is a repository for OpenTelemetry Collector contributions that are not
+      part of the [core
+      distribution](https://github.com/open-telemetry/opentelemetry-collector) of the
+      Collector. Typically, these contributions are vendor specific
+      receivers/exporters and/or components that are only useful to a relatively
+      small number of users.
+
+      > Please note that this repository and its releases are a superset of the core repository.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
