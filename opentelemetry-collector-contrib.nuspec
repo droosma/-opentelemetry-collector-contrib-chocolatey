@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>opentelemetry-collector-contrib</id>
-    <version>0.38.0</version>
+    <version>0.104.0</version>
     <title>OpenTelemetry Collector Contrib (Install)</title>
     <owners>DRoosma</owners>
     <authors>open-telemetry</authors>
@@ -11,7 +11,7 @@
     <licenseUrl>https://raw.githubusercontent.com/open-telemetry/opentelemetry-collector-contrib/main/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/droosma/opentelemetry-collector-contrib-chocolatey</packageSourceUrl>
     <projectSourceUrl>https://github.com/open-telemetry/opentelemetry-collector-contrib</projectSourceUrl>
-    <releaseNotes>https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.38.0</releaseNotes>
+    <releaseNotes>https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.104.0</releaseNotes>
     <docsUrl>https://opentelemetry.io/docs/collector/getting-started/</docsUrl>
     <bugTrackerUrl>https://github.com/open-telemetry/opentelemetry-collector-contrib/issues</bugTrackerUrl>
     <summary>OpenTelemetry Collector Contrib</summary>

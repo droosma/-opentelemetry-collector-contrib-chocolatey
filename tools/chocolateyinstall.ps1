@@ -1,7 +1,7 @@
 
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/download/v0.38.0/otel-contrib-collector-0.38.0-amd64.msi'
+$url64      = 'https://github.com/open-telemetry/opentelemetry-collector-releases/releases/download/v0.104.0/otelcol-contrib_0.104.0_windows_x64.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'opentelemetry-collector-contrib*'
 
-  checksum64    = 'ddffeade4705325b3282fd71c518fb047bd55d77a45ea32823862df6a1edd8bb'
+  checksum64    = '8849584aabda1e60539111e73326853a96f2f876cfcec49986adcedaf44dac45'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
@@ -19,8 +19,6 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
-
 
 
 
