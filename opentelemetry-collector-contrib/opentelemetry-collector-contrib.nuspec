@@ -23,7 +23,7 @@
       receivers/exporters and/or components that are only useful to a relatively
       small number of users.
 
-      > Please note that this repository and its releases are a superset of the core repository.
+      &gt; Please note that this repository and its releases are a superset of the core repository.
     </description>
   </metadata>
   <files>
